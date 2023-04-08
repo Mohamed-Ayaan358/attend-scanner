@@ -126,10 +126,10 @@ export default function Home() {
           </button>
         </form>
         {qrscan ? (
-          <a href={"data:image/jpg;base64," + qrscan} download="myimage">
+          <a href={"data:image/png;base64," + qrscan} download="myimage">
             <Image
               id="imgElem"
-              src={"data:image/jpg;base64," + qrscan}
+              src={"data:image/png;base64," + qrscan}
               alt="Picture of the author"
               width={200}
               height={200}
